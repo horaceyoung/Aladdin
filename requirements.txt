@@ -1,0 +1,16 @@
+aiohttp==2.2.5
+async-timeout==1.4.0
+beautifulsoup4==4.6.0
+bs4==0.0.1
+certifi==2017.7.27.1
+chardet==3.0.4
+emoji==0.4.5
+future==0.16.0
+idna==2.6
+multidict==3.1.3
+python-telegram-bot==8.0
+requests==2.18.4
+telegram==0.0.1
+telepot==12.3
+urllib3==1.22
+yarl==0.12.0

@@ -433,6 +433,7 @@ class Aladdin(telepot.helper.ChatHandler):
 
         elif self.indicator == 'add_contact':
             self.store.shop_info['contact'] = msg
+            self.send_custom_keyboard(chat_id, text_welcome_seller, text_button_cancel)
             try:
                 with open('shop_info.json', 'a') as handle:
                     json.dump(self.store.shop_info, handle)
@@ -628,7 +629,7 @@ class Aladdin(telepot.helper.ChatHandler):
                 bot.sendMessage(chat_id, text_choose_from_list)
             self.close()
 
-TOKEN = '*****************'
+TOKEN = '471830109:AAEIixxauDJp7dY9AgeMZ7Mpg6TZ3tLKucw'
 
 
 bot = telepot.DelegatorBot(TOKEN, [

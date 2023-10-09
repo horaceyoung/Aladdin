@@ -1,6 +1,6 @@
 < - Description of the Funtions for Bot Project Aladdin --- Created by Goup Teletubbies - > 
 
-#Part 1 Python files
+# Part 1 Python files
 
 1> Bot.py
      The file contains all the main functions for the bot. The functions can be classified as following:
